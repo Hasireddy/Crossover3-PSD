@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.clients{
+  background-color: #eec210;
+}
+
+.client{
+  display:flex;
+  width:40%;
+}
+#clients1-2{
+  display:flex;
+justify-content: space-around;
+}
+#clients3-4{
+  display:flex;
+  justify-content: space-around;
+  margin-top:6rem;
+  padding-bottom:2rem ;
+
+}
+
+.allClients{
+  margin-top:4rem;
+  /* display:flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+.clientTexts{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
