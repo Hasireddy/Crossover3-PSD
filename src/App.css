@@ -2,37 +2,26 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.discountsbck {
+  background-color: rgb(255, 191, 80);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.discountButton {
   color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  padding-left: 40px;
+  padding-right: 40px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.discountsRow {
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.discountsText {
+  color: white;
+  font-size:x-large;
+  padding: 70px;
 }

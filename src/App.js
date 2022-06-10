@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import React, { discounts } from "react";
+import { Discounts } from "./components/Discounts";
 
 function App() {
   return (
     <div className="App">
-      <h1>Crossover3</h1>
-      {discounts}
+      <Discounts />
     </div>
   );
 }
