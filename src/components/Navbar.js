@@ -1,3 +1,5 @@
+import React from 'react';
+import '../App.css';
 const Navbar = () => {
     return (
         <div className="container bg-secondary">
@@ -26,7 +28,10 @@ const Navbar = () => {
                                 </li>
                             </ul>
                             <div>
-                                <a className="nav-item lead text-white"><i className="fas fa-phone "> Hotline:+5162600598</i></a>
+                                <a className="nav-item lead text-white" href="#">
+                                    <i className="fas fa-phone "> </i>
+                                    Hotline:+5162600598
+                                </a>
                             </div>
 
                         </div>
@@ -34,15 +39,15 @@ const Navbar = () => {
                     <hr class="mt-2 mb-3 text-white" />
                     <div className="jumbotron jumbotron-fluid bg-secondary">
                         <div class="container">
-                            <h1 className="display-3 font-weight-bolder text-white">Fusion Travel</h1>
+                            <h1 className="display-1 font-weight-bolder text-white">Fusion Travel</h1>
                             <p className="lead text-white">Lets Discover The World Together</p>
-                            <button type="button" className="btn btn-warning btn-group-lg text-white">Plan Your Trip</button>
+                            <button type="button" className="btn btn-warning btn-lg text-white  btn btn-default">Plan Your Trip</button>
                         </div>
                     </div>
 
                     <div className="text-left">
                         <a className="lead text-white">
-                            <i className="fab fa-youtube">Watch</i>
+                            <i className="fab fa-youtube text-white">Watch</i>
                             <p>INTRO VIDEO</p>
                         </a>
                     </div>
