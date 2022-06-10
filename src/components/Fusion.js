@@ -7,7 +7,7 @@ const Fusion = () => {
                         <h1 className="display-1 font-weight-bolder ">Welcome to Fusion</h1>
                         <p className="lead">Nam consectetur elementum neque vitae condimentum.Aenean dignissim, turpis et tinciddunt finibus,massa purus maslesuada metus,a commodo velit magna nec nec nibh.Donec dictum fringilla tempus. Nunc rhoncus sapien lectus,non fermentum neque euismod quis. Phasellus sagittis tortor in accumsan</p>
                     </div>
-                    <div className="col">
+                    <div className="col" style="padding:5px">
                         <div className="card-group">
                             <div className="card">
                                 <div className="card-body">
