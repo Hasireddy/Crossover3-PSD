@@ -1,6 +1,8 @@
 .App {
-  text-align: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .discountsbck {
   background-color: rgb(255, 191, 80);
@@ -14,7 +16,45 @@
   padding-left: 40px;
   padding-right: 40px;
   
+
+.btn-default {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    /* color: rgba(108, 88, 179, 0.75); */
+    letter-spacing: 1px;
+    line-height: 15px;
+    /* border: 2px solid rgba(108, 89, 179, 0.75); */
+    border-radius: 40px;
+    /* background: transparent;
+    transition: all 0.3s ease 0s; */
+    background-color: #ffc107;
 }
+
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+
+.clients{
+  background-color: #eec210;
+}
+
+.client{
+  display:flex;
+  width:40%;
+}
+#clients1-2{
+  display:flex;
+justify-content: space-around;
+
+}
+#clients3-4{
+  display:flex;
+  justify-content: space-around;
+  margin-top:6rem;
+  padding-bottom:2rem ;
+
 
 .discountsRow {
   align-items: center;
@@ -25,3 +65,21 @@
   font-size:x-large;
   padding: 70px;
 }
+
+}
+
+.allClients{
+  margin-top:4rem;
+  /* display:flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+.clientTexts{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
