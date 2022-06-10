@@ -17,13 +17,42 @@
 }
 
 
-/* 
 .button:hover {
     background-color: #3e8e41
 }
 
-.button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-} */
+
+.clients{
+  background-color: #eec210;
+}
+
+.client{
+  display:flex;
+  width:40%;
+}
+#clients1-2{
+  display:flex;
+justify-content: space-around;
+}
+#clients3-4{
+  display:flex;
+  justify-content: space-around;
+  margin-top:6rem;
+  padding-bottom:2rem ;
+
+}
+
+.allClients{
+  margin-top:4rem;
+  /* display:flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+.clientTexts{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
